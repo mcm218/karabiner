@@ -166,6 +166,19 @@ export function open(...what: string[]): LayerCommand {
   };
 }
 
+
+/**
+ * Shortcut for "open" shell command
+ */
+export function safeOpen(...what: string[]): LayerCommand {
+  return {
+    to: what.map((w) => ({
+      shell_command: `open "${w}"`,
+    })),
+    description: `Open ${what.join(" & ")}`,
+  };
+}
+
 /**
  * Utility function to create a LayerCommand from a tagged template literal
  * where each line is a shell command to be executed.

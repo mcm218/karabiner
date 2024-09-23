@@ -478,7 +478,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://customWindowManagementCommand?&name=Home%20-%20Morning"
+                    "shell_command": "open \"raycast://customWindowManagementCommand?&name=Home%20-%20Morning\""
                   }
                 ],
                 "description": "Open raycast://customWindowManagementCommand?&name=Home%20-%20Morning",
@@ -502,7 +502,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://customWindowManagementCommand?&name=Morning%20Journaling%20Layout"
+                    "shell_command": "open \"raycast://customWindowManagementCommand?&name=Morning%20Journaling%20Layout\""
                   }
                 ],
                 "description": "Open raycast://customWindowManagementCommand?&name=Morning%20Journaling%20Layout",

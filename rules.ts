@@ -1,6 +1,6 @@
 import fs from "fs";
 import { KarabinerRules } from "./types";
-import { createHyperSubLayers, app, open, rectangle, shell } from "./utils";
+import { createHyperSubLayers, app, open, rectangle, shell, safeOpen } from "./utils";
 
 const rules: KarabinerRules[] = [
   // Define the Hyper key itself
@@ -94,8 +94,8 @@ const rules: KarabinerRules[] = [
       f: app("Autodesk Fusion")
     },
     l: {
-      1: open("raycast://customWindowManagementCommand?&name=Home%20-%20Morning"),
-      m: open("raycast://customWindowManagementCommand?&name=Morning%20Journaling%20Layout")
+      1: safeOpen("raycast://customWindowManagementCommand?&name=Home%20-%20Morning"),
+      m: safeOpen("raycast://customWindowManagementCommand?&name=Morning%20Journaling%20Layout")
     },
     o: {
       n: app("Obsidian"),
