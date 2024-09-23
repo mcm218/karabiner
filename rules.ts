@@ -93,20 +93,25 @@ const rules: KarabinerRules[] = [
       m: app("Blender"),
       f: app("Autodesk Fusion")
     },
+    l: {
+      1: open("raycast://customWindowManagementCommand?&name=Home%20-%20Morning"),
+      m: open("raycast://customWindowManagementCommand?&name=Morning%20Journaling%20Layout")
+    },
     o: {
       n: app("Obsidian"),
       v: app("Visual Studio Code"),
       d: app("Discord"),
-      e: app("Spark Mail"),
+      e: app("Mail"),
       t: app("Todoist"),
-      f: app("Finder"),
-      u: app("Unity Hub"),
+      f: app("ForkLift"),
+      u: app("Unity"),
       m: app("Spotify"),
       a: app("Arc"),
       s: app("Slack"),
       r: app("Rider 2024.1"),
-      // "G"ames
-      g: app("Steam"),
+      g: app("Godot_mono"),
+      h: open("raycast://extensions/raycast/clipboard-history/clipboard-history"),
+      k: open("kitty")
     },
 
     // s = "System/Search"
@@ -236,6 +241,7 @@ const rules: KarabinerRules[] = [
       s: open("raycast://extensions/KevinBatdorf/obsidian/searchNoteCommand"),
       // "C"reate
       c: open("raycast://extensions/KevinBatdorf/obsidian/createNoteCommand"),
+      r: open("raycast://extensions/raycast/raycast-ai/ai-chat?context=%7B%22preset%22:%22C6116850-80A0-4534-9120-5B0C42B0A047%22%7D"),
     },
   }),
   {
