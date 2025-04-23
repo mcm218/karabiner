@@ -123,7 +123,7 @@ const rules: KarabinerRules[] = [
             n: app("Obsidian"),
             v: app("Visual Studio Code"),
             d: app("Discord"),
-            e: open("Spark Desktop"),
+            e: app("Spark Mail"),
             t: app("Todoist"),
             u: app("Unity"),
             m: app("Spotify"),
@@ -133,7 +133,7 @@ const rules: KarabinerRules[] = [
             h: open(
                 "raycast://extensions/raycast/clipboard-history/clipboard-history"
             ),
-            k: open("kitty"),
+            k: app("GitKraken"),
         },
 
         // s = "System/Search"
@@ -149,13 +149,7 @@ const rules: KarabinerRules[] = [
                     },
                 ],
             },
-            p: {
-                to: [
-                    {
-                        key_code: "play_or_pause",
-                    },
-                ],
-            },
+            p: open("raycast://extensions/Aayush9029/cleanshotx/all-in-one"),
             semicolon: {
                 to: [
                     {
@@ -169,7 +163,7 @@ const rules: KarabinerRules[] = [
                         key_code: "rewind",
                     },
                 ],
-            },  
+            },
             e: safeOpen("raycast://extensions/raycast/emoji-symbols/search-emoji-symbols")
         },
 
@@ -232,15 +226,15 @@ const rules: KarabinerRules[] = [
             q: open("raycast://extensions/raycast/raycast/create-quicklink"),
             // "D"aily note
             d: open(
-                "raycast://extensions/KevinBatdorf/obsidian/dailyNoteCommand"
+                "raycast://extensions/marcjulian/obsidian/dailyNoteCommand"
             ),
             // "S"earch
             s: open(
-                "raycast://extensions/KevinBatdorf/obsidian/searchNoteCommand"
+                "raycast://extensions/marcjulian/obsidian/searchNoteCommand"
             ),
             // "C"reate
             c: open(
-                "raycast://extensions/KevinBatdorf/obsidian/createNoteCommand"
+                "raycast://extensions/marcjulian/obsidian/createNoteCommand"
             ),
             r: open(
                 "raycast://extensions/raycast/raycast-ai/ai-chat?context=%7B%22preset%22:%22C6116850-80A0-4534-9120-5B0C42B0A047%22%7D"
